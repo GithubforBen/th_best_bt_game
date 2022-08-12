@@ -9,7 +9,7 @@ public class PlayerHandler : MonoBehaviour
     void Awake()
     {
         inventory = new Inventory();
-        UI_Inventory.SetInventory;
+        UI_Inventory.SetInventory(inventory);
     }
 
     void Update()
